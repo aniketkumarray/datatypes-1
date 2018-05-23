@@ -1,0 +1,7 @@
+>>> print(c)
+[1, 2, 3, 4, 5, 6, 7, 11, 12, 13, 14, 15, 16]
+>>> print("total even nos are;", len([i for i in c if (i%2==0)]))
+total even nos are; 6
+>>> print("total even nos are;", len([i for i in c if (i%2!=0)]))
+total even nos are; 7
+
