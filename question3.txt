@@ -1,0 +1,9 @@
+>>> list.count(6)
+1
+>>> list.count(list2)
+1
+>>> list.count('hello')
+1
+>>> print(list)
+[6, 'hello', '5.5', ['google', 'apple', 'facebook', 'microsoft', 'tesla']]
+

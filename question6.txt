@@ -1,0 +1,24 @@
+>>> stack = ["Ani", "kumar", "ray"]
+>>> stack.append("anu")
+>>> stack.append("apoo")
+>>> print(stack)
+['Ani', 'kumar', 'ray', 'anu', 'apoo']
+>>> print(stack.pop())
+apoo
+>>> print(stack)
+['Ani', 'kumar', 'ray', 'anu']
+
+
+
+>>> from collections import deque
+>>> que = deque(["ani","kumar","ray"])
+>>> print(que)
+deque(['ani', 'kumar', 'ray'])
+>>> que.append("apoo")
+>>> print(que)
+deque(['ani', 'kumar', 'ray', 'apoo'])
+>>> print(que.popleft())
+ani
+>>> print(que)
+deque(['kumar', 'ray', 'apoo'])
+

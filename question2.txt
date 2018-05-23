@@ -1,0 +1,5 @@
+>>> list2=['google','apple','facebook','microsoft','tesla']
+>>> list.append(list2)
+>>> print(list)
+[6, 'hello', '5.5', ['google', 'apple', 'facebook', 'microsoft', 'tesla']]
+
